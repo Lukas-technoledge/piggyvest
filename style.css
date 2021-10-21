@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    padding: 2% 5%;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.intro1 {
+    text-align: center;
+    padding-left: 6%;
+    
+}
+.intro1 ul {
+    display: flex;
+    justify-content: space-around;
+}
+.intro1 ul li {
+    list-style: none;
+    padding-left: 6%;
+}
+.intro1 ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+}
+.logo {
+    align-items: center;
+    padding-top: 3%;
+    margin-left: 9%;
+}
+.intro2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.intro2 ul li {
+    list-style: none;
+
+}
+.intro2 ul li a {
+    text-decoration: none;
+    font-size: 120%;
+}
+#one {
+    background-color: black;
+}
+#one a {
+    color: white;
+}
+#one a:hover {
+    
+}
+.logo1 {
+    border: 1px black solid;
+    padding: 15px;
+    margin-left:15px;
+    border-radius: 15px;
+
+}
+.logo1 a {
+    color: black;
+}
+
+.logo1 a:hover {
+    color: blue;
+}
+.lay-out {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    text-align: left
+}
+.lay-out1 {
+    padding: 80px;
+    padding-right: 200px;
+    margin-right: 100px;
+    border:1px red solid
+}
+.lay-out1 h1 {
+    font-size:  70px;
+    margin: ;
+}
+.lay-out1 p {
+    font-size: 20px;
+    color: gray;
+    margin: ;
+}
+.link {
+    border: 1px blue solid;
+    padding: 2px 3px;
+}
+.link a {
+    color: ;
+
+}
