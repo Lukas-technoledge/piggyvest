@@ -103,7 +103,6 @@ nav {
 .image-lay ul {
   align-items: center;
   display: flex;
-  padding:0px 190px;
 }
 .lay-out-img1 {
   width: 150px;
@@ -215,7 +214,7 @@ nav {
   text-align: center;
   font-size: 15px;
   line-height: 1.5;
-  padding: 0px 50px;
+  padding: 0px 20px;
 }
 .sub-con2 a {
   font-size: 17px;

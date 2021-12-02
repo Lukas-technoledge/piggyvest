@@ -335,7 +335,6 @@ nav {
 .sub-con2 {
   background-color: #0d60d8;
   text-align: left;
-  border: red 2px solid;
   padding: 80px;
   height: 400px;
   /* padding-left: 60px;
@@ -517,8 +516,8 @@ footer {
   font-family: U8-Bold !important;
   font-size: 26px;
  }
- .image-lay {
-  display: block;
+ .image-lay ul{
+  display: block !important;
  }
  .con3 h1 {
    font-size: 19px;
@@ -534,7 +533,7 @@ footer {
    text-align: center;
  }
  .sub-con2 a {
-   margin: 0 auto;
+   padding-left: 100px;
  }
  .sub-con2-link {
    margin-top: 45px !important;
