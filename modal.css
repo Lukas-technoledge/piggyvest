@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 90%;
+  position: absolute;
+  top: 5%;
+}
+.piggy {
+    
+}
+.menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}

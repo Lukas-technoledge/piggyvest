@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Piggyvest App</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./fontawesome/js/all.min.js">
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
@@ -19,6 +21,7 @@
           <ul>
             <li class="logo-main">
               <a href="investicon"><img src="./logo.svg" alt="logo" /></a>
+              <!-- <i class="fas fa-times"></i> -->
             </li>
             <li class="logo" id="main"><a href="#">Save</a></li>
             <li class="logo" id="main"><a href="#">Invest</a></li>
@@ -28,13 +31,47 @@
         </div>
         <div class="intro2">
           <ul>
-            <li id="four" id="main" class="logo1"><a href="#">Sign in</a></li>
+            <li id="foour" id="main" class="logo1"><a href="#">Sign in</a></li>
             <li id="one" id="main" class="logo1">
               <a href="#">Create free account</a>
             </li>
           </ul>
         </div>
       </nav>
+
+      <nav class="mobile-nav">
+
+        <div class="nav-header">
+
+          <div class="logo-container">
+            <img src="./logo.svg" alt="logo"  width="150"/>
+          </div>
+
+          <div class="hamburger" id="hamburger">
+            <div class="menu menua" id="menu1"></div>
+            <div class="menu menub"id="menu2"></div>
+            <div class="menu menuc"id="menu3"></div>
+          </div>
+
+        </div>
+        
+
+        <div class="intro1">
+          <ul>
+            <li class="logo" id="main"><a href="#">Save</a></li>
+            <li class="logo" id="main"><a href="#">Invest</a></li>
+            <li class="logo" id="main"><a href="#">Stories</a></li>
+            <li class="logo" id="main"><a href="#">FAQs</a></li>
+            <li id="four" id="main" class="logo1"><a href="#">Sign in</a></li>
+            <li id="one" id="main" class="logo1">
+              <a href="#">Create free account</a>
+            </li>
+          </ul>
+        </div>
+            
+      </nav>
+
+      
       <div class="lay-out">
         <div class="lay-out1">
           <h1>The Better Way to Save & Invest.</h1>
@@ -63,8 +100,8 @@
         <div class="lay-out-img">
           <img src="./headerImg.png" alt="invest" id="invest" />
           <!-- <img src="./rect.png" alt="reat" id="shadow"/> -->
-          <img src="./card1.png" alt="#" id="imgone" />
-          <img src="./card2.png" alt="#" id="imgtwo" />
+          <!-- <img src="./card1.png" alt="#" id="imgone" />
+          <img src="./card2.png" alt="#" id="imgtwo" /> -->
         </div>
       </div>
       <div class="container3">
@@ -155,13 +192,17 @@
             helping them shape how they spend and save for future
             responsibilities.
           </p>
+
           <div class="sub-con2-link">
             <a href="#">Meet Theresa</a>
           </div>
+
         </div>
+
         <div class="meet-img">
-          <img src="./IMG_20210526_134337.jpg" alt="#" />
+         <img src="./pexels-mateus-souza-3586798.jpg" alt="#">
         </div>
+
       </div>
       <div class="container8">
         <h1 id="h1-tag">2.5 Million + customers</h1>
@@ -170,18 +211,23 @@
           manage their money better, avoid over spending and be more
           accountable.
         </p>
+
         <div class="con8-link">
           <a id="link" href="#">Create free account</a>
         </div>
+
         <div class="con8-li">
+
           <div class="con8-li1">
             <img src="./apple-icon.svg" alt="apple" />
             <a id="alink1" href="#">Get on iphone</a>
           </div>
+
           <div class="con8-li1">
             <img src="./google-icon.svg" alt="#" />
             <a id="alink1" href="#">Get on iphone</a>
           </div>
+          
         </div>
       </div>
 
@@ -270,5 +316,6 @@
         <p id="final">2016 - 2021 PiggyTech Global Limited - RC1405222</p>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>

@@ -34,6 +34,9 @@ nav {
   color: black;
   font-size: 1.1rem;
 }
+.hamburger {
+  display: none;
+}
 .logo {
   align-items: center;
   padding-top: 3%;
@@ -47,6 +50,9 @@ nav {
   list-style: none;
 }
 
+.mobile-nav {
+  display: none;
+}
 .intro2 ul li a {
   text-decoration: none;
   font-size: 20px;
@@ -60,7 +66,7 @@ nav {
 #four:hover {
   color: rgb(52, 52, 247);
   border: 1px solid rgb(52, 52, 247);
-  transform: .2s;
+  transform: 0.2s;
 }
 
 #four a:hover {
@@ -87,7 +93,6 @@ nav {
   border: none;
 }
 
-
 .logo a:hover {
   color: blue;
 }
@@ -99,8 +104,8 @@ nav {
 }
 .lay-out1 {
   margin-top: 20px;
-  padding: 40px;
-  padding-right: 200px;
+  width: 100%;
+  padding: ;
   margin-right: 150px;
 }
 .lay-out1 h1 {
@@ -147,12 +152,10 @@ nav {
 }
 .lay-out-img {
   margin-right: 120px;
-
 }
 .image-lay {
   margin-left: -10px;
 }
-
 
 .card_img > img {
   width: 280px;
@@ -178,7 +181,7 @@ nav {
 }
 
 #invest {
- z-index: 99999999;
+  z-index: 99999999;
 }
 
 #shadow {
@@ -251,7 +254,6 @@ nav {
   border-radius: 20px;
   height: 50vh;
   padding: 2em 2.5em;
-  max-width: 500px;
   margin: 2em;
 }
 .container3 {
@@ -307,13 +309,9 @@ nav {
   margin-top: 8rem;
 }
 
-.meet-img {
-  width: 500px;
-}
-
 .meet-img > img {
-  width: 695px;
-  height: 758px;
+  width: 100%;
+  height: 500px;
 }
 .sub-con2 h1 {
   font-size: 3.5rem;
@@ -337,12 +335,15 @@ nav {
 .sub-con2 {
   background-color: #0d60d8;
   text-align: left;
-  padding-left: 60px;
+  border: red 2px solid;
+  padding: 80px;
+  height: 400px;
+  /* padding-left: 60px;
   padding-right: 15rem;
   margin-bottom: 4px;
   padding-top: 13rem;
   width: 500px;
-  height: 550px;
+  height: 550px; */
 }
 .container9 {
   color: white;
@@ -358,7 +359,7 @@ nav {
   margin-top: 2rem;
 }
 .con8-link {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   font-size: 1.3rem;
   margin-top: 2.5rem;
 }
@@ -375,7 +376,8 @@ nav {
 .con8-li {
   margin-top: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 100%;
 }
 .con8-li1 {
   background-color: white;
@@ -407,9 +409,6 @@ footer {
 .pd {
   display: flex;
   justify-content: space-between;
-}
-#f2 {
-  margin-left: 20px
 }
 .foot2 {
   text-align: left;
@@ -483,6 +482,89 @@ footer {
   margin-top: 90px;
   padding-right: 130px;
 }
-.feature-img1 {
-  padding-left: 50px;
+
+.menu {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+
+/* styling for max-width of 600px */
+@media screen and (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .lay-out {
+    margin-top: 170px;
+  }
+  .lay-out1 {
+  margin-top: 0px;
+  padding: 0px;
+ }
+ .con2 {
+  display: block;
+ }
+ .con8-li {
+ display: block;
+ }
+ .lay-out1 h1 {
+   font-size: 44px !important;
+ }
+ .con1 h1 {
+  font-family: U8-Bold !important;
+  font-size: 26px;
+ }
+ .image-lay {
+  display: block;
+ }
+ .con3 h1 {
+   font-size: 19px;
+ }
+ .sub-con2 h1 {
+  font-family: U8-Bold !important;
+  padding-left: 0;
+ }
+ .sub-con2 {
+   width: 100%;
+ }
+ .sub-con2 p {
+   text-align: center;
+ }
+ .sub-con2 a {
+   margin: 0 auto;
+ }
+ .sub-con2-link {
+   margin-top: 45px !important;
+ }
+ .container9 {
+   width: 100%;
+ }
+}
+/* styling for max-width of 600px */
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .image-lay {
+    display: block;
+  }
+.sub-con1 {
+  padding: 0px 18px;
+}
+.container9 {
+margin-top: 6rem;
+}
+}
+@media screen and (max-width: 720px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .lay-out1 h1 {
+    width: ;
+  }
 }
