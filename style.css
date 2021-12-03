@@ -554,7 +554,7 @@ footer {
     padding: 0;
   }
   .image-lay {
-    display: block;
+    display: ;
   }
 .sub-con1 {
   padding: 0px 18px;
@@ -565,11 +565,7 @@ margin-top: 6rem;
 .con2 {
   display: block;
 }
-.sub-con2-link {
-  
-}
-}
 .sub-con2 a {
-  padding-left: 100px;
+  padding-left: 180px;
 }
 }
