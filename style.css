@@ -105,7 +105,6 @@ nav {
 .lay-out1 {
   margin-top: 20px;
   width: 100%;
-  padding: ;
   margin-right: 150px;
 }
 .lay-out1 h1 {
@@ -490,11 +489,17 @@ footer {
 }
 
 
-/* styling for max-width of 600px */
+/* styling for max-width of 320px */
 @media screen and (max-width: 320px) {
   * {
     margin: 0;
     padding: 0;
+  }
+  .lay-out-img2 {
+   padding: 0px;
+  }
+  .lay-out-img1 {
+   width: 100%;
   }
   .lay-out {
     margin-top: 170px;
@@ -542,7 +547,7 @@ footer {
    width: 100%;
  }
 }
-/* styling for max-width of 600px */
+/* styling for max-width of 480px */
 @media screen and (max-width: 480px) {
   * {
     margin: 0;
@@ -557,13 +562,7 @@ footer {
 .container9 {
 margin-top: 6rem;
 }
+.con2 {
+  display: block;
 }
-@media screen and (max-width: 720px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  .lay-out1 h1 {
-    width: ;
-  }
 }
