@@ -91,7 +91,6 @@ nav {
 .lay-out {
   display: block;
   align-items: center;
-  background-color: red;
 }
 .lay-out1 h1 {
   font-size: 3rem;
@@ -99,10 +98,11 @@ nav {
 .lay-out1 {
   width: 100%;
   text-align: center;
+  margin-left: 0px;
 }
 .image-lay ul {
   align-items: center;
-  display: flex;
+  display: grid;
 }
 .lay-out-img1 {
   width: 150px;
@@ -217,6 +217,10 @@ nav {
 }
 .sub-con2 a {
   font-size: 17px;
+}
+.sub-con2-link {
+  display: flex;
+  justify-content: center;
 }
 #h1-tag {
   font-size: 25px;

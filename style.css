@@ -99,13 +99,14 @@ nav {
 .lay-out {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 200px;
+  margin-top: 150px;
   text-align: left;
 }
 .lay-out1 {
-  margin-top: 20px;
+  margin-top: 50px;
   width: 100%;
   margin-right: 150px;
+  margin-left: 70px;
 }
 .lay-out1 h1 {
   font-size: 65px;
@@ -262,7 +263,8 @@ nav {
 }
 .container4 {
   display: grid;
-  grid-template-columns: 450px 450px;
+  
+
 }
 
 .sub-con1 {
@@ -307,7 +309,9 @@ nav {
   padding-right: 14rem;
   margin-top: 8rem;
 }
-
+.meet-img {
+  width: 100%;
+}
 .meet-img > img {
   width: 100%;
   height: 500px;
@@ -336,6 +340,8 @@ nav {
   text-align: left;
   padding: 80px;
   height: 400px;
+  width: 100%;
+  height: 340px;
   /* padding-left: 60px;
   padding-right: 15rem;
   margin-bottom: 4px;
@@ -480,7 +486,9 @@ footer {
   margin-top: 90px;
   padding-right: 130px;
 }
-
+.feature-img1 {
+  padding-right: 50px;
+}
 .menu {
   width: 35px;
   height: 5px;
@@ -542,6 +550,8 @@ footer {
  }
  .sub-con2-link {
    margin-top: 45px !important;
+   display: flex;
+   justify-content: center;
  }
  .container9 {
    width: 100%;
@@ -553,8 +563,11 @@ footer {
     margin: 0;
     padding: 0;
   }
+  .lay-out1 {
+    margin-left: 0px;
+  }
   .image-lay {
-    display: ;
+    display: grid;
   }
 .sub-con1 {
   padding: 0px 18px;
