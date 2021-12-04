@@ -32,6 +32,7 @@ nav {
   display: block;
   padding-top: 35px;
   height: 10vh;
+  box-shadow: 5px 0px 5px gray;
 }
 .intro1 {
   padding-left: 0%;
@@ -121,6 +122,12 @@ nav {
 }
 .lay-out-img {
   margin: 0 auto;
+}
+#imgone {
+  display: none;
+}
+#imgtwo {
+  display: none;
 }
 .container3 {
   display: block;
@@ -257,7 +264,7 @@ nav {
   justify-content: center;
 }
 .feature-img1 {
-  margin-left: 70px;
+  margin-left: 50px;
 }
 footer {
   display: flex;
