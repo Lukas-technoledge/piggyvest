@@ -261,10 +261,8 @@ nav {
   justify-content: space-evenly;
   margin-top: 6rem;
 }
-.container4 {
-  display: grid;
-  
-
+.flex {
+  display: flex;
 }
 
 .sub-con1 {
